@@ -62,11 +62,9 @@ namespace ReStatusApi.Controllers
             }
             else
             {
-                myIntervention.Status = "pending";
                 myIntervention.Status = "InProgress";
                 myIntervention.InterventionStart = DateTime.Now;
-                // string InterventionStart = DateTime.Now.ToString("yyyy/MM/dd H:mm:ss");
-                // myIntervention.InterventionStart = InterventionStart;
+               
             }
             this._context.interventions.Update(myIntervention);
             await this._context.SaveChangesAsync();
@@ -89,7 +87,6 @@ namespace ReStatusApi.Controllers
             }
             else
             {
-                myIntervention.Result = "Complete";
                 myIntervention.Status = "Completed";
                 myIntervention.InterventionEnd = DateTime.Now;
             }
