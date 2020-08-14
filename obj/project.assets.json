@@ -8331,11 +8331,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zambl\\Documents\\Rocket-Elevator-Foundation_RestFul_API\\ReStatusApi.csproj",
+      "projectUniqueName": "C:\\Users\\zambl\\Rocket-Elevator-Foundation_Rest_API\\ReStatusApi.csproj",
       "projectName": "ReStatusApi",
-      "projectPath": "C:\\Users\\zambl\\Documents\\Rocket-Elevator-Foundation_RestFul_API\\ReStatusApi.csproj",
+      "projectPath": "C:\\Users\\zambl\\Rocket-Elevator-Foundation_Rest_API\\ReStatusApi.csproj",
       "packagesPath": "C:\\Users\\zambl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zambl\\Documents\\Rocket-Elevator-Foundation_RestFul_API\\obj\\",
+      "outputPath": "C:\\Users\\zambl\\Rocket-Elevator-Foundation_Rest_API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\zambl\\AppData\\Roaming\\NuGet\\NuGet.Config"
