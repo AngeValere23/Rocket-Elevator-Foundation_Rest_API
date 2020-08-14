@@ -76,7 +76,7 @@ namespace ReStatusApi.Controllers
 
         // PUT: api/interventions/{id}/completed                  
         // https://localhost:5001/api/interventions/2/completed
-        //Change the status of the request for action to "Completed" and add an end date and time (Timestamp).
+        // Change the status of the request for action to "Completed" and add an end date and time (Timestamp).
         [HttpPut("{id}/completed")]
         public async Task<ActionResult<interventions>> interventionCompleted([FromRoute] long id)
         {
